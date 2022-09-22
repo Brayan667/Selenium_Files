@@ -22,7 +22,7 @@ public class Selenium_Assignment_2 {
 		driver.findElement(By.name("birthday_day")).sendKeys("11");
 		driver.findElement(By.name("birthday_month")).sendKeys("Feb");
 		driver.findElement(By.name("birthday_year")).sendKeys("2000");
-		driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[7]/span/span[1]/label")).click();
+driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[7]/span/span[1]/label")).click();
 		Thread.sleep(500);
 		driver.findElement(By.xpath("/html/body/div[3]/div[2]/div/div/div[2]/div/div/div[1]/form/div[1]/div[11]/button")).click();
 

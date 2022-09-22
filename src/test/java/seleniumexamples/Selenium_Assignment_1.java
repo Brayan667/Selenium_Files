@@ -9,8 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Selenium_Assignment_1 {
 
 	public static void main(String[] args) throws InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "C:\\brayan1\\chromedriver.exe");//method which tells if we want
-		// to use other browser and all.
+		System.setProperty("webdriver.chrome.driver", "C:\\brayan1\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get(" https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList");
 		Thread.sleep(500);
