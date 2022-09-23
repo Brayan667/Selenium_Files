@@ -13,7 +13,7 @@ public class Selenium_Assignment_6 {
 		  System.setProperty("webdriver.chrome.driver", "C:\\brayan1\\chromedriver.exe");
 		  Selenium_Assignment_6 obj = new Selenium_Assignment_6();
 		  obj.login();
-		  //obj.search("Username");
+		  obj.search("Username");
 		  obj.search("Username","userrole");
 	}
 	
