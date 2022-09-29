@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.Test_NG_Assignment">
+      <class name="tests.Asserts_1">
         <methods>
-          <include name="firefox_browser_opening"/>
+          <include name="URL_Validation"/>
         </methods>
-      </class> <!-- tests.Test_NG_Assignment -->
+      </class> <!-- tests.Asserts_1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

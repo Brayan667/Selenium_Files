@@ -13,7 +13,7 @@ public class Selenium_Assignment_1 {
 		WebDriver driver = new ChromeDriver();
 		driver.get(" https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList");
 		Thread.sleep(500);
-		driver.findElement(By.("username")).sendKeys("Admin");
+		driver.findElement(By.name("username")).sendKeys("Admin");
     	Thread.sleep(500);
 		driver.findElement(By.name("password")).sendKeys("admin123");
 		//driver.findElement(By.name("login")).click();

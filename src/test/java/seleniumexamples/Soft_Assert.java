@@ -16,24 +16,8 @@ class Asserts{
 	@Test
 	public void hard_assert() {
 		System.out.println("hardAssert Method Was Started");
-		Assert.assertTrue(false);
+		Assert.assertTrue(true);
 		System.out.println("hardAssert Method Was Executed");
-		
 	}
 }
 
-
-public class Soft_Assert {
-
-	public static void main(String[] args) {
-		
-		
-		
-	
-		System.out.println("hardAssert Method Was Started");
-		Assert.assertTrue(false);
-		System.out.println("hardAssert Method Was Executed");
-		
-	}
-
-}
